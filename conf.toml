@@ -1,0 +1,16 @@
+[General]
+# Debug | Release
+ENV = "Debug"
+
+[Mysql]
+IsInit = true
+DSN = "root:123456@tcp(192.168.56.200:3308)/mysql?charset=utf8"
+MaxOpenConn = 20
+MaxIdleConn = 20
+
+[Redis]
+IsInit = true
+Addr = "192.168.56.200:6379"
+Password = ""
+DB = 0
+PoolSize = 10
