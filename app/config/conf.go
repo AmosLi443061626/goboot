@@ -7,7 +7,8 @@ type Config struct {
 }
 
 type general struct {
-	ENV string `toml:"ENV"`
+	ENV      string `toml:"ENV"`
+	JwtToken string `toml:"JWTTOKEN"`
 }
 
 type mysql struct {

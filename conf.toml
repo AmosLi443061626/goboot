@@ -1,10 +1,11 @@
 [General]
 # Debug | Release
-ENV = "Debug"
+ENV = "Release"
+JWTTOKEN = "wksm4ch03hhsdr9p91gjwipc4gpn6ith"
 
 [Mysql]
-IsInit = false
-DSN = "root:123456@tcp(192.168.56.200:3308)/mysql?charset=utf8"
+IsInit = true
+DSN = "root:123456@tcp(192.168.56.200:3308)/goboot?loc=Local&charset=utf8&parseTime=true"
 MaxOpenConn = 20
 MaxIdleConn = 20
 
